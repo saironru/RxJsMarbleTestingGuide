@@ -1,3 +1,5 @@
-# rxjs-marble-testing-guide
+# RxJsMarbleTestingGuide
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/saironru/rxjs-marble-testing-guide)
+Тестирование RxJs кода с использованием Marble-диаграмм.
+Планировщики в RxJs (queueScheduler, asapScheduler, asyncScheduler, TestScheduler).
+Различия операторов высшего порядка (concatMap, mergeMap, exaustMap и switchMap).
