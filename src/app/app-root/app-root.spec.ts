@@ -331,6 +331,7 @@ describe('Тестирование операторов RxJS, подписок, 
 
   */
 
+  // пример из документации rxjs
   it('delay, animate() & animationFrameScheduler', () => {
     testScheduler.run(({ animate, cold, expectObservable }) => {
       animate('              ---x---x---x---x');
@@ -732,10 +733,10 @@ describe('X-Map операторы RxJs', () => {
     });
   });
 
-  // Полезная статья по теме операторов concatMap, mergeMap, exaustMap и switchMap:
+  // Статья по теме операторов concatMap, mergeMap, exaustMap и switchMap:
   // https://habr.com/ru/articles/715882/
 
-  // полезная статья по теме планировщиков:
+  // Статья по теме планировщиков:
   // https://habr.com/ru/articles/529000/
   
 
